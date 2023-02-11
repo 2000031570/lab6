@@ -3,15 +3,12 @@
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
 
-trigger:
-- main
+<!DOCTYPE html>
+<html>
+<body>
 
-pool:
-  vmImage: ubuntu-latest
+<h1>My First Heading</h1>
+<p>My first paragraph.</p>
 
-steps:
-- task: ArchiveFiles@2
-  inputs:
-    rootFolderOrFile: '$(build.sourcesDirectory)'
-    includeRootFolder: false
-- task: PublishBuildArtifacts@1
+</body>
+</html>
